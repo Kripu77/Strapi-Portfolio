@@ -1,12 +1,12 @@
 import React from "react";
-
+import avatar from "./images/avataaars.svg"
 let MastHead = ()=>{
     return(<header className="masthead bg-primary text-white text-center">
             <div className="container d-flex align-items-center flex-column">
                 {/* <!-- Masthead Avatar Image--> */}
-                <img className="masthead-avatar mb-5" src="images/avataaars.svg" alt="..." />
+                <img className="masthead-avatar mb-5" src={avatar} alt="..." />
                 {/* <!-- Masthead Heading--> */}
-                <h1 className="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
+                <h1 className="masthead-heading text-uppercase mb-0">Kripu Khadka</h1>
                 {/* <!-- Icon Divider--> */}
                 <div className="divider-custom divider-light">
                     <div className="divider-custom-line"></div>
