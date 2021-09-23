@@ -21,7 +21,7 @@ return (
                                     {/* <!-- Portfolio Modal - Image--> */}
                                     <img className="img-fluid rounded mb-5" src={Circus} alt="..." />
                                     {/* <!-- Portfolio Modal - Text--> */}
-                                    <p className="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p className="mb-4"></p>
                                     <button className="btn btn-primary" href="#!" data-bs-dismiss="modal">
                                         <i className="fas fa-times fa-fw"></i>
                                         Close Window
