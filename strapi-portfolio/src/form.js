@@ -47,9 +47,9 @@ let Form  =()=>{
                             <div className="d-none" id="submitSuccessMessage">
                                 <div className="text-center mb-3">
                                     <div className="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
+                                    {/* To activate this form, sign up at
                                     <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a> */}
                                 </div>
                             </div>
                             {/* <!-- Submit error message-->
