@@ -3,7 +3,7 @@ import React from "react";
 
 let About = ({About="About Me", Description="I am a passionate indvidual looking to explore the feild of Web Devlopment. I have the knowledge of HTML, CSS, SASS, JavaScript, React.js, Gatsby.js, PHP, MySQl along with FireBase", Work})=>{
     return (
-        <section className="page-section bg-primary text-white mb-0" id="about">
+        <section className="page-section  text-white mb-0" id="about" style={{backgroundColor:"#41b0bf"}} >
             <div className="container">
                 {/* <!-- About Section Heading--> */}
                 <h2 className="page-section-heading text-center text-uppercase text-white">{About}</h2>

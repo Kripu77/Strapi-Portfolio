@@ -58,7 +58,7 @@ let Form  =()=>{
                             <!-- an error submitting the form--> */}
                             <div className="d-none" id="submitErrorMessage"><div className="text-center text-danger mb-3">Error sending message!</div></div>
                             {/* <!-- Submit Button--> */}
-                            <button className="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Hit me up</button>
+                            <button className="btn btn-xl disabled bg-primary" id="submitButton" type="submit" style={{ color:"white"}}>Hit me up</button>
                         </form>
                         </div>
                         </div>
