@@ -1,5 +1,6 @@
 import React from "react";
 import foot from "./images/foot.jpg";
+import {TiHeartFullOutline} from "react-icons/ti";
 let Copyright = ()=>{
 
     return(
@@ -10,8 +11,9 @@ let Copyright = ()=>{
             <div className="container" style={{fontSize:"2rem"}}><small>Copyright &copy; Kripu Khadka 2021</small>
                   </div>
 
+                <p className="main-detail"> Made with <span className="mainpara-icon"> <TiHeartFullOutline/>  </span> In Nepal </p>
         </div>
-         <img className="masthead-avatar mb-5 bg-primary" src={foot} alt="..." style={{width:"100%" }} />
+         <img className="footer-image" src={foot} alt="..."  />
         </div> )
 }
 export default Copyright;

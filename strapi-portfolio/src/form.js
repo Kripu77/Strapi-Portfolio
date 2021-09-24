@@ -7,13 +7,7 @@ let Form  =()=>{
 
         <div className="row justify-content-center">
                     <div className="col-lg-8 col-xl-7">
-                        {/* <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms--> */}
-                        {/* <!-- to get an API token!--> */}
+                       
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                             {/* <!-- Name input--> */}
                             <div className="form-floating mb-3">
@@ -46,19 +40,14 @@ let Form  =()=>{
                             <!-- has successfully submitted--> */}
                             <div className="d-none" id="submitSuccessMessage">
                                 <div className="text-center mb-3">
-                                    <div className="fw-bolder">Form submission successful!</div>
-                                    {/* To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a> */}
+                                    <div className="fw-bolder">Received Thank You!</div>
+                                   
                                 </div>
                             </div>
-                            {/* <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form--> */}
+                          
                             <div className="d-none" id="submitErrorMessage"><div className="text-center text-danger mb-3">Error sending message!</div></div>
                             {/* <!-- Submit Button--> */}
-                            <button className="btn btn-xl disabled bg-primary" id="submitButton" type="submit" style={{ color:"white"}}>Hit me up</button>
+                            <button className="btn btn-xl  bg-primary" id="submitButton" type="submit" style={{ color:"white"}}>Hit me up</button>
                         </form>
                         </div>
                         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 
 
-let About = ({About="About Me", Description="I am a passionate indvidual looking to explore the feild of Web Devlopment. I have the knowledge of HTML, CSS, SASS, JavaScript, React.js, Gatsby.js, PHP, MySQl along with FireBase.", Work})=>{
+let About = ({About="About Me", Description="I am a passionate indvidual looking to explore the feild of Web Devlopment. I have the knowledge of HTML, CSS Pre-processor(SASS), JavaScript(ES5/ES6), React.js, Gatsby.js, PHP, MySQL along with Google FireBase.  Tools: Git, NPM, JIRA", Work})=>{
     return (
         <section className="page-section  text-white mb-0" id="about" style={{backgroundColor:"#41b0bf"}} >
             <div className="container">

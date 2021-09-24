@@ -1,0 +1,57 @@
+
+/* font for head para styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Dancing+Script:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+
+/* Header background image */
+.main-background{
+    background-image: url("../images/clouds.png");
+     background-position: center;
+     background-size: contain;
+     background-repeat: repeat;
+    
+  
+
+    
+}
+/* my image */
+.icon-plane{
+    height: 100px;
+}
+
+/* heart from react icons */
+
+.mainpara-icon{
+color: red;
+
+}
+.main-detail{
+    font-family: 'Birthstone',
+    cursive;
+    font-family: 'Dancing Script',
+    cursive;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+/* footer image */
+.footer-image{
+    display: block;
+ 
+    margin-left: auto;
+    margin-right: auto;
+margin-bottom: -20px;
+    width: 50%;
+}
+
+/* making the cloud invisibnle under 1000px */
+
+@media screen and (max-width:980px){
+.main-background{
+   background-image: none;
+}
+}
