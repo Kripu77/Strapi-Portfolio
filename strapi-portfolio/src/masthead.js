@@ -7,7 +7,7 @@ let MastHead = ()=>{
             <div className="container d-flex align-items-center flex-column">
                 {/* <!-- Masthead Avatar Image--> */}
                 <img className="masthead-avatar mb-5 bg-primary" src={plane} alt="..." />
-                <img className="masthead-avatar mb-5" src={avatar} alt="..." style={{height:"300px", width:"300px"}} />
+                <img className="masthead-avatar mb-5" src={avatar} alt="..." style={{height:"300px", width:"300px", borderRadius:"250px"}} />
                 {/* <!-- Masthead Heading--> */}
                 <img className="masthead-avatar mb-5 bg-primary" src={plane} alt="..." />
                 <h1 className="masthead-heading text-uppercase mb-0">Kripu Khadka</h1>
