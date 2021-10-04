@@ -19,7 +19,7 @@ let MastHead = ()=>{
                 </div>
                 {/* <!-- Masthead Subheading--> */}
                 <p className="masthead-subheading font-weight-light mb-0">Front-End Web Developer- Web Designer - Illustrator - Blogger</p>
-                <p className="main-detail"> Made with <span className="mainpara-icon"> <TiHeartFullOutline/>  </span> In Nepal </p>
+                <p className="main-detail"> Made with <span className="mainpara-icon"> <TiHeartFullOutline/>  </span> by Kripu Khadka </p>
             </div>
         </header>)
 }

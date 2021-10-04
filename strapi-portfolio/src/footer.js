@@ -26,7 +26,7 @@ let Footer = ()=>{
                     <div className="col-lg-4">
                         <h4 className="text-uppercase mb-4">Thank you</h4>
                         <p className="lead mb-0">
-                           Thank you for visting my site please check out my GitHub profile and Repo. Let's get connected on linkedIn
+                           Thank you for visting my site please check out my GitHub profile. Let's get connected on linkedIn
                            <br/> <a href="https://github.com/Kripu77/">GitHub</a>
                             .
                         </p>

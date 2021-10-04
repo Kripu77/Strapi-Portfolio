@@ -11,7 +11,7 @@ let Copyright = ()=>{
             <div className="container" style={{fontSize:"2rem"}}><small>Copyright &copy; Kripu Khadka 2021</small>
                   </div>
 
-                <p className="main-detail"> Made with <span className="mainpara-icon"> <TiHeartFullOutline/>  </span> In Nepal </p>
+                <p className="main-detail"> Made with <span className="mainpara-icon"> <TiHeartFullOutline/>  </span> by Kripu Khadka </p>
         </div>
          <img className="footer-image" src={foot} alt="..."  />
         </div> )
