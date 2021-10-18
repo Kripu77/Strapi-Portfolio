@@ -8,7 +8,7 @@ let MastHead = ()=>{
 //for fade in typing effect using the ityped npm package
 const textRef = useRef();
 useEffect(()=>{
-init(textRef.current,{ showCursor: false, strings:["Front-End Developer", "Web Designer", "Blogger", "Content Creator"]})
+init(textRef.current,{ showCursor: false, backDelay:2000, backSpeed:80, strings:["Front-End Developer", "Web Designer", "Blogger", "Content Creator"]})
     console.log(textRef)
 }, [])
 
@@ -16,7 +16,7 @@ init(textRef.current,{ showCursor: false, strings:["Front-End Developer", "Web D
             <div className="container d-flex align-items-center flex-column">
                 {/* <!-- Masthead Avatar Image--> */}
                 <img className="masthead-avatar mb-5 bg-primary" src={plane} alt="..." />
-                <img className="masthead-avatar mb-5" src={avatar} alt="..." style={{height:"300px", width:"300px", borderRadius:"100%"}} />
+                <img className="masthead-avatar mb-5" src={'https://avatars.githubusercontent.com/u/84505567?s…00&u=56a554a8c69b4d34dce81b9170f89d44ac881906&v=4'} alt="..." style={{height:"300px", width:"300px", borderRadius:"100%"}} />
                 {/* <!-- Masthead Heading--> */}
                 <img className="masthead-avatar mb-5 bg-primary" src={plane} alt="..." />
                 <h1 className="masthead-heading text-uppercase mb-0">Kripu Khadka</h1>
