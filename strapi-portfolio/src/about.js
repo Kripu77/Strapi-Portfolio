@@ -1,7 +1,7 @@
 import React from "react";
 
 
-let About = ({About="About Me", Description="I am a passionate indvidual looking to explore the feild of Web Devlopment. I have the knowledge of HTML, CSS Pre-processor(SASS), JavaScript(ES5/ES6), React.js, Gatsby.js, PHP, MySQL along with Google FireBase.  Tools: Git, NPM, JIRA", Work})=>{
+let About = ({About="About Me", Description="I am a passionate individual looking to explore the field of Web Development. I have knowledge of HTML, CSS Pre-processor(SASS), JavaScript(ES5/ES6), React.js, Gatsby.js, PHP, MySQL alongside Google FireBase. Tools: NPM, GIT/GITHUB, JIRA", Work})=>{
     return (
         <section className="page-section  text-white mb-0" id="about" style={{backgroundColor:"#41b0bf"}} >
             <div className="container">
@@ -15,8 +15,8 @@ let About = ({About="About Me", Description="I am a passionate indvidual looking
                 </div>
                 {/* <!-- About Section Content--> */}
                 <div className="row">
-                    <div className="col-lg-4 ms-auto"><p className="lead">{Description}</p></div>
-                    <div className="col-lg-4 me-auto"><p className="lead">{Work}</p></div>
+                    <div className="lead col-lg-4 ms-auto"><p className="leader">{Description}</p></div>
+                    <div className="lead col-lg-4 me-auto"><p className="leader">{Work}</p></div>
                 </div>
                 {/* <!-- About Section Button--> */}
                 <div className="text-center mt-4">

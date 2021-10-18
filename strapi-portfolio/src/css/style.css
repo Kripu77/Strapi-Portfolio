@@ -53,6 +53,11 @@ color: red;
 margin-bottom: -20px;
     width: 50%;
 }
+.leader{
+    text-align: justify;
+    margin-left: 1rem;
+
+}
 
 /* making the cloud invisibnle under 1000px */
 

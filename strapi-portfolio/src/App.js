@@ -19,8 +19,7 @@ let App = ()=>{
       <Nav/>
       <MastHead/>
       <Section title="Welcome to my portfolio"/>
-      <About  Work="I am currently employed by Hungry Jack's as an Assistant Manager and also employed as an part time Front-End Developer at Code Venture.
-      The fun fact about me is I spend most of my days coding, debugging and solving challenges that are available in the Internet."/>
+      <About  Work="I am currently employed by Hungry Jack's as an Assistant Manager and also employed as a part-time Front-End Developer at Code Venture. The fun fact about me is I spend most of my days coding, debugging, and solving the challenges that are available on the Internet."/>
      
      <Contact/>
      <Footer/>
