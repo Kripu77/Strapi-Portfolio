@@ -10,7 +10,7 @@ const textRef = useRef();
 useEffect(()=>{
 init(textRef.current,{ showCursor: false, strings:["Front-End Developer", "Web Designer", "Blogger", "Content Creator"]})
     console.log(textRef)
-}, {})
+}, [])
 
     return(<header className="masthead  text-white text-center main-background" style={{backgroundColor:"#41b0bf"}}>
             <div className="container d-flex align-items-center flex-column">
