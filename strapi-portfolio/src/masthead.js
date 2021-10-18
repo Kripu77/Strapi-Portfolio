@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useRef} from "react";
 import avatar from "./images/Profile.jpg"
 import plane from "./images/plane.gif"
 import {TiHeartFullOutline} from "react-icons/ti";
@@ -6,6 +6,7 @@ import { init } from 'ityped'
 let MastHead = ()=>{
 
 //for fade in typing effect
+const textRef = useRef();
 useEffect(()=>{}, {})
 
     return(<header className="masthead  text-white text-center main-background" style={{backgroundColor:"#41b0bf"}}>
