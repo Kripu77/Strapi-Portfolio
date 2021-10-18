@@ -1,8 +1,13 @@
-import React from "react";
+import React, {useEffect} from "react";
 import avatar from "./images/Profile.jpg"
 import plane from "./images/plane.gif"
 import {TiHeartFullOutline} from "react-icons/ti";
+import { init } from 'ityped'
 let MastHead = ()=>{
+
+//for fade in typing effect
+useEffect(()=>{}, {})
+
     return(<header className="masthead  text-white text-center main-background" style={{backgroundColor:"#41b0bf"}}>
             <div className="container d-flex align-items-center flex-column">
                 {/* <!-- Masthead Avatar Image--> */}
