@@ -11,7 +11,7 @@ let Footer = ()=>{
                         <h4 className="text-uppercase mb-4">Address </h4>
 
                         <p className="lead mb-0">
-                            4/14 Curzon st, Ryde, NSW, 2112.
+                        14 Curzon st,  Ryde, NSW, 2112.
                         </p>
                     </div>
                     {/* <!-- Footer Social Icons--> */}

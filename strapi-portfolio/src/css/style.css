@@ -55,9 +55,37 @@ margin-bottom: -20px;
 }
 .leader{
     text-align: justify;
-    margin-left: 1rem;
+   
 
 }
+
+.iframe-comp{
+    height: 40vh;
+    width: 80vw;
+}
+
+.page-section{
+    margin-top: 4rem;
+
+}
+.features{
+    margin: 2rem;
+}
+.modal-link{
+    color: white;
+    text-decoration: none;}
+a:hover{
+    color:white;
+    transition: 0.3s;
+}
+
+/* .parent-image{
+    min-height: 26.5vh;
+    text-align: center;
+}
+.image-comp{
+    height: 23vh;
+} */
 
 /* making the cloud invisibnle under 1000px */
 

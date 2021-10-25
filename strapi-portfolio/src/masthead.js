@@ -8,7 +8,7 @@ let MastHead = ()=>{
 //for fade in typing effect using the ityped npm package
 const textRef = useRef();
 useEffect(()=>{
-init(textRef.current,{ showCursor: false, backDelay:2000, backSpeed:80, strings:["Front-End Developer", "Web Designer", "Blogger", "Content Creator"]})
+init(textRef.current,{ showCursor: false, backDelay:2000, backSpeed:80, strings:["Front-End Web Developer", "Web Designer", "Blogger", "Content Creator"]})
     console.log(textRef)
 }, [])
 
