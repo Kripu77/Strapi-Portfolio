@@ -4,6 +4,7 @@ import cake from "./images/cake.png"
 import circus from "./images/circus.png"
 import games from "./images/game.png";
 import submarine from "./images/submarine.png"
+import safetwo from "./images/safetwo.PNG"
 let Section = ({title})=>{
 
 
@@ -87,7 +88,7 @@ let Section = ({title})=>{
               </div>
             </div>
             {/* <!-- Portfolio Item 5--> */}
-            {/* <div className="col-md-6 col-lg-4 mb-5 mb-md-0">
+            <div className="col-md-6 col-lg-4 mb-5 mb-md-0">
               <div
                 className="portfolio-item mx-auto"
                 data-bs-toggle="modal"
@@ -98,9 +99,9 @@ let Section = ({title})=>{
                     <i className="fas fa-plus fa-3x"></i>
                   </div>
                 </div>
-                <img className="img-fluid" src={safe} alt="..." />
+                <img className="img-fluid" src={safetwo} alt="..." />
               </div>
-            </div> */}
+            </div>
             {/* <!-- Portfolio Item 6--> */}
             {/* <div className="col-md-6 col-lg-4">
               <div
