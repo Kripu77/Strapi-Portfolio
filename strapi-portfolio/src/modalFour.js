@@ -28,7 +28,7 @@ return (
               <div className="col-lg-8">
                 {/* <!-- Portfolio Modal - Title--> */}
                 <h2 className="portfolio-modal-title text-primary text-uppercase mb-0">
-                Tour Gallery
+                  GLOBAL COVID TRACKER
                 </h2>
                 {/* <!-- Icon Divider--> */}
                 <div className="divider-custom">
@@ -39,7 +39,10 @@ return (
                   <div className="divider-custom-line"></div>
                 </div>
                 {/* <!-- Portfolio Modal - Image--> */}
-                <a href="https://kripus-tours-gallery.netlify.app/">
+                <a
+                  href="https://kkcovidtracker.netlify.app/"
+                  alt="Click me to visit site"
+                >
                   <img
                     className="img-fluid rounded mb-5"
                     src={game}
@@ -49,11 +52,12 @@ return (
                 {/* <!-- Portfolio Modal - Text--> */}
                 <p className="mb-4">
                   {" "}
-                  A static tours fetching site where user has the priveldge to
-                  access the list of tours available. If you would like to
-                  access the site, then please click on the image above. Else if
-                  you would like to have a look on the source code, please click
-                  on the <strong>button </strong> below
+                  A dynamic COVID records fetching site where user has the
+                  priveldge to access the data realted to COVID cases coming
+                  from the API from Lmao Ninja. If you would like to access the
+                  site, then please <strong>click on the image above</strong>.
+                  Else if you would like to have a look on the source code,
+                  please click on the <strong>button </strong> below
                 </p>
                 <button
                   className="btn btn-primary"
@@ -61,7 +65,7 @@ return (
                   data-bs-dismiss="modal"
                 >
                   <a
-                    href="https://github.com/Kripu77/Tours"
+                    href="https://github.com/Kripu77/COVID-TRACKER"
                     className="modal-link"
                   >
                     {" "}

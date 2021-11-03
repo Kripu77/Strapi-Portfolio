@@ -39,7 +39,7 @@ let Five = ()=>{
                     </div>
                     {/* <!-- Portfolio Modal - Image--> */}
 
-                    <a href="https://kkcovidtracker.netlify.app/" title="click me to see demo">
+                    <a href="https://cocktailsdbone.netlify.app/" title="click me to see demo">
                       <img
                         className="img-fluid rounded mb-5"
                         src={safetwo}
