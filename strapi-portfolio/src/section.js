@@ -58,7 +58,7 @@ let Section = ({title})=>{
               </div>
             </div>
             {/* <!-- Portfolio Item 3--> */}
-            <div className="col-md-6 col-lg-4 mb-5">
+            {/* <div className="col-md-6 col-lg-4 mb-5">
               <div
                 className="portfolio-item mx-auto"
                 data-bs-toggle="modal"
@@ -71,7 +71,7 @@ let Section = ({title})=>{
                 </div>
                 <img className="img-fluid" src={circus} alt="..." />
               </div>
-            </div>
+            </div> */}
             {/* <!-- Portfolio Item 4--> */}
             <div className="col-md-6 col-lg-4 mb-5 mb-lg-0">
               <div
@@ -103,7 +103,7 @@ let Section = ({title})=>{
               </div>
             </div>
             {/* <!-- Portfolio Item 6--> */}
-            {/* <div className="col-md-6 col-lg-4">
+            <div className="col-md-6 col-lg-4">
               <div
                 className="portfolio-item mx-auto"
                 data-bs-toggle="modal"
@@ -116,7 +116,7 @@ let Section = ({title})=>{
                 </div>
                 <img className="img-fluid" src={submarine} alt="..." />
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </section>

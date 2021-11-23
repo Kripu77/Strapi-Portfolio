@@ -15,8 +15,8 @@ let About = ({About="About Me", Description="I am a passionate individual lookin
                 </div>
                 {/* <!-- About Section Content--> */}
                 <div className="row">
-                    <div className="lead col-lg-4 ms-auto"><p className="leader">{Description}</p></div>
-                    <div className="lead col-lg-4 me-auto"><p className="leader">{Work}</p></div>
+                    <div className="lead col-lg-6 ms-auto"><p className="leader">{Description}</p></div>
+                    <div className="lead col-lg-6 me-auto"><p className="leader">{Work}</p></div>
                 </div>
                 {/* <!-- About Section Button--> */}
                 <div className="text-center mt-4">
