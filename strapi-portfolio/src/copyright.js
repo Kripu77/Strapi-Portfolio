@@ -1,19 +1,57 @@
 import React from "react";
 import foot from "./images/foot.jpg";
 import {TiHeartFullOutline} from "react-icons/ti";
+import { motion } from "framer-motion";
+import { useInViewAnimate } from "framer-motion-hooks";
 let Copyright = ()=>{
+      const { inViewRef, animation } = useInViewAnimate({ animate: "visible" });
 
-    return(
-    <div>
-         
+const variants = {
+  hidden: {
+    x: -200,
+    opacity: 0,
+  },
+  visible: {
+    x: 0,
+    opacity: 1,
+    transition: {
+      duration: 7,
+      type: "spring",
+      delay: 0.3,
+    },
+  },
+};
+    return (
+      <motion.div
+        ref={inViewRef}
+        initial="hidden"
+        animate={animation}
+        variants={variants}
+      >
         <div className="text-center text-black">
- 
-            <div className="container" style={{fontSize:"2rem"}}><small>Copyright &copy; Kripu Khadka 2021</small>
-                  </div>
+          <div
+            ref={inViewRef}
+            initial="hidden"
+            animate={animation}
+            variants={variants}
+            className="container"
+            style={{ fontSize: "2rem" }}
+          >
+            <small>Copyright &copy; Kripu Khadka 2021</small>
+          </div>
 
-                <p className="main-detail"> Made with <span className="mainpara-icon"> <TiHeartFullOutline/>  </span> by Kripu Khadka </p>
+          <p className="main-detail">
+            {" "}
+            Made with{" "}
+            <span className="mainpara-icon">
+              {" "}
+              <TiHeartFullOutline />{" "}
+            </span>{" "}
+            by Kripu Khadka{" "}
+          </p>
         </div>
-         <img className="footer-image" src={foot} alt="..."  />
-        </div> )
+        <img className="footer-image" src={foot} alt="..." />
+      </motion.div>
+    );
 }
 export default Copyright;

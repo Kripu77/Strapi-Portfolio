@@ -4,12 +4,42 @@ import cake from "./images/cake.png"
 import circus from "./images/circus.png"
 import games from "./images/game.png";
 import submarine from "./images/submarine.png"
-import safetwo from "./images/safetwo.PNG"
+import safetwo from "./images/safetwo.PNG";
+import {motion} from "framer-motion";
+import { useInViewAnimate } from "framer-motion-hooks";
 let Section = ({title})=>{
 
+//intersection observer hoook
+ const { inViewRef, animation } = useInViewAnimate(
+   { animate: "visible" },
+   {
+     threshold: 0.2,
+     triggerOnce: false, // set it explicitly to false to get the expected result
+   }
+ );
 
+ //animation pattern
+ const variants = {
+   hidden: {x:-300,
+     opacity: 0,
+   },
+   visible: {
+     x:0,
+     opacity: 1,
+     transition: {
+       duration: 7, type:"spring"
+     },
+   },
+ };
     return (
-      <section className="page-section portfolio" id="portfolio">
+      <motion.section
+        ref={inViewRef}
+        initial="hidden"
+        animate={animation}
+        variants={variants}
+        className="page-section portfolio"
+        id="portfolio"
+      >
         <div className="container">
           {/* <!-- Portfolio Section Heading--> */}
           <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">
@@ -119,7 +149,7 @@ let Section = ({title})=>{
             </div>
           </div>
         </div>
-      </section>
+      </motion.section>
     );
 }
 
