@@ -8,16 +8,16 @@ let Copyright = ()=>{
 
 const variants = {
   hidden: {
-    x: -200,
+    x: -50,
     opacity: 0,
   },
   visible: {
-    x: 0,
+      x:0,
     opacity: 1,
     transition: {
       duration: 7,
       type: "spring",
-      delay: 0.3,
+      delay: 1,
     },
   },
 };

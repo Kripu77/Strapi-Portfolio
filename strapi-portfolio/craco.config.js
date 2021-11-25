@@ -1,4 +1,6 @@
+
 module.exports = {
+
   webpack: {
     configure: {
       module: {

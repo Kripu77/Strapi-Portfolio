@@ -20,7 +20,7 @@ let Section = ({title})=>{
 
  //animation pattern
  const variants = {
-   hidden: {x:-300,
+   hidden: {x:-50,
      opacity: 0,
    },
    visible: {
