@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useInViewAnimate } from "framer-motion-hooks";
 
 
-let About = ({About="About Me", Description="I am a passionate individual looking to explore the field of Web Development. I have knowledge of HTML, CSS Pre-processor(SASS), JavaScript(ES5/ES6), React.js, Gatsby.js, PHP, MySQL alongside Google FireBase. Tools: NPM, GIT/GITHUB, JIRA", Work})=>{
+let About = ({About="About Me", Description="I am a passionate individual looking to explore the field of Web Development. I have knowledge of HTML, CSS Pre-processor(SASS), JavaScript(ES5/ES6), React.js, Gatsby.js, PHP, MySQL alongside Google FireBase. Tools: NPM, GIT/GITHUB, JIRA"})=>{
 
     //framer component 
     const { inViewRef, animation } = useInViewAnimate({ animate: "visible" });
@@ -52,7 +52,13 @@ let About = ({About="About Me", Description="I am a passionate individual lookin
               <p className="leader">{Description}</p>
             </div>
             <div className="lead col-lg-6 me-auto">
-              <p className="leader">{Work}</p>
+              <p className="leader">
+                I am currently employed by Hungry Jack's as an Assistant
+                Manager and also employed as a part-time Front-End Developer at
+                Code Venture. The fun fact about me is I spend most of my days
+                coding, debugging, and solving the challenges that are available
+                on the Internet.
+              </p>
             </div>
           </div>
           {/* <!-- About Section Button--> */}

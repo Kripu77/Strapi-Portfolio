@@ -7,7 +7,7 @@ import submarine from "./images/submarine.png"
 import safetwo from "./images/safetwo.PNG";
 import {motion} from "framer-motion";
 import { useInViewAnimate } from "framer-motion-hooks";
-let Section = ({title})=>{
+let Section = ()=>{
 
 //intersection observer hoook
  const { inViewRef, animation } = useInViewAnimate(
@@ -43,7 +43,7 @@ let Section = ({title})=>{
         <div className="container">
           {/* <!-- Portfolio Section Heading--> */}
           <h2 className="page-section-heading text-center text-uppercase text-secondary mb-0">
-            {title}
+        My Projects
           </h2>
           {/* <!-- Icon Divider--> */}
           <div className="divider-custom">
