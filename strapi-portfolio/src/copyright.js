@@ -1,6 +1,7 @@
 import React from "react";
 import foot from "./images/foot.jpg";
 import {TiHeartFullOutline} from "react-icons/ti";
+import {SiReact} from "react-icons/si";
 import { motion } from "framer-motion";
 import { useInViewAnimate } from "framer-motion-hooks";
 let Copyright = ()=>{
@@ -8,14 +9,14 @@ let Copyright = ()=>{
 
 const variants = {
   hidden: {
-    x: -50,
+   
     opacity: 0,
   },
   visible: {
-      x:0,
+     
     opacity: 1,
     transition: {
-      duration: 7,
+      duration: 3,
       type: "spring",
       delay: 1,
     },
@@ -48,6 +49,13 @@ const variants = {
               <TiHeartFullOutline />{" "}
             </span>{" "}
             by Kripu Khadka{" "}
+          </p>
+          <p className="tech-detail">
+            Powered by{" "}
+            <span className="react-icon">
+              <SiReact />
+            </span>{" "}
+            React.Js
           </p>
         </div>
         <img className="footer-image" src={foot} alt="..." />

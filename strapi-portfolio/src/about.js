@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { useInViewAnimate } from "framer-motion-hooks";
 
 
-let About = ({About="About Me", Description="I am a passionate individual looking to explore the field of Web Development. I have knowledge of HTML, CSS Pre-processor(SASS), JavaScript(ES5/ES6), React.js, Gatsby.js, PHP, MySQL alongside Google FireBase. Tools: NPM, GIT/GITHUB, JIRA"})=>{
+let About = ({About="About Me", Description="I am a passionate individual looking to explore the field of Web Development. I have the knowledge of HTML5, CSS3 Pre-processor(SASS), JavaScript(ES5/ES6+), React.js, Next.js, Puppeteer.js, Framer Motion, Node.js, PHP, MySQL, Google FireBase, Firestore. Tools: NPM, GIT/GITHUB, JIRA, nextAuth, FirebaseAuth, auth0."})=>{
 
     //framer component 
     const { inViewRef, animation } = useInViewAnimate({ animate: "visible" });
