@@ -1,6 +1,6 @@
 
 /* font for head para styling */
-
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Dancing+Script:wght@600&display=swap');
 *{
     margin: 0;
@@ -32,6 +32,7 @@
 /* heart from react icons */
 
 .mainpara-icon{
+  
 color: red;
 
 }
@@ -44,6 +45,8 @@ color: red;
 }
 .tech-detail{
     font-size: 1.3rem;
+    font-family: 'Fuzzy Bubbles',
+    cursive;
 }
 .main-detail{
     font-family: 'Birthstone',
@@ -51,7 +54,7 @@ color: red;
     font-family: 'Dancing Script',
     cursive;
     font-size: 2rem;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 /* footer image */
 .footer-image{
