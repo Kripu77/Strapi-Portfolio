@@ -1,10 +1,9 @@
 import React, {useEffect, useRef} from "react";
-import avatar from "./images/Profile.jpg"
 import plane from "./images/plane.gif"
-import {TiHeartFullOutline} from "react-icons/ti";
 import { init } from 'ityped';
 import {motion} from "framer-motion";
 import { useInViewAnimate } from "framer-motion-hooks";
+import Heart from "./Heart";
 
 let MastHead = ()=>{
 
@@ -45,11 +44,13 @@ const textAnimation ={
     }
 }
 
-const textBubble={
+//this section has been moved to heart component for reusability 
+// const textBubble={
 
-   animate:{scale:1.1,  transition:{duration:0.8,repeat: Infinity, repeatDelay:0.1}}
+//    animate:{scale:1.1,  transition:{duration:0.8,repeat: Infinity, repeatDelay:0.1}}
    
-}
+// }
+
 
 
     return (
@@ -122,15 +123,7 @@ const textBubble={
           >
             {" "}
             Made with{" "}
-            <motion.span
-              variants={textBubble}
-              initial="initial"
-              animate="animate"
-              className="mainpara-icon"
-            >
-              {" "}
-              <TiHeartFullOutline />{" "}
-            </motion.span>{" "}
+           <Heart/> {" "}
             by Kripu Khadka{" "}
           </motion.p>
         </div>

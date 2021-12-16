@@ -4,6 +4,7 @@ import {TiHeartFullOutline} from "react-icons/ti";
 import {SiReact} from "react-icons/si";
 import { motion } from "framer-motion";
 import { useInViewAnimate } from "framer-motion-hooks";
+import Heart from "./Heart";
 let Copyright = ()=>{
       const { inViewRef, animation } = useInViewAnimate({ animate: "visible" });
 
@@ -44,10 +45,7 @@ const variants = {
           <p className="main-detail">
             {" "}
             Made with{" "}
-            <span className="mainpara-icon">
-              {" "}
-              <TiHeartFullOutline />{" "}
-            </span>{" "}
+             <Heart/> {" "}
             by Kripu Khadka{" "}
           </p>
           <p className="tech-detail">
