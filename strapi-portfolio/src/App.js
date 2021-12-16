@@ -19,7 +19,7 @@ let App = ()=>{
         <div>
       <Nav/>
       <MastHead/>
-      <Section title="My Projects"/>
+      <Section />
       <About/>
      
      <Contact/>

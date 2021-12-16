@@ -15,6 +15,7 @@
     "react-icons": "^4.2.0",
     "react-intersection-observer": "^8.32.4",
     "react-scripts": "4.0.3",
+    "react-snap": "^1.23.0",
     "reactjs-media": "^2.1.2",
     "redux": "^4.1.1",
     "video-react": "^0.14.1",
@@ -25,7 +26,7 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "postbuild": "purgecss --css build/static/css/*.css --content build/index.html build/static/js/*.js --output build/static/css"
+    "postbuild": "react-snap"
   },
   "eslintConfig": {
     "extends": [
