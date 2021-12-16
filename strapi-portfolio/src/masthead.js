@@ -11,7 +11,7 @@ let MastHead = ()=>{
 const textRef = useRef();
 useEffect(()=>{
 init(textRef.current,{ showCursor: false, backDelay:2000, backSpeed:80, strings:["React Developer",  "JavaScript Enthusiast", "Content Creator"]})
-    console.log(textRef)
+   
 }, [])
 
 //for observer
@@ -29,7 +29,7 @@ const variants = {
   },
 };
 //framer components
-console.log(window.innerWidth)
+
 const imageAnimation ={
     hidden:{opacity:0, y:-200},
     show:{opacity:1, y:0, transition:{default:{duration:3}, delay:0.3, type:"spring", stifness:20}}
