@@ -56,7 +56,7 @@ let About = ({
           <div className="lead col-lg-6 me-auto">
             <p className="leader">
               I am currently employed as a Assistant Manager at Hungry Jack's
-              and working as a part-time Developer at Code
+              and working as a Developer at Code
               Venture, Sydney, NSW on the side. The fun fact about me is I spend most of my days coding,
               debugging, reading documentation and solving the challenges that are available on the
               Internet.
