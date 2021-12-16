@@ -1,6 +1,5 @@
 import React from "react";
 import foot from "./images/foot.jpg";
-import {TiHeartFullOutline} from "react-icons/ti";
 import {SiReact} from "react-icons/si";
 import { motion } from "framer-motion";
 import { useInViewAnimate } from "framer-motion-hooks";
@@ -44,15 +43,21 @@ const variants = {
 
           <p className="main-detail">
             {" "}
-            Made with{" "}
-             <Heart/> {" "}
-            by Kripu Khadka{" "}
+            Made with <Heart /> by Kripu Khadka{" "}
           </p>
           <p className="tech-detail">
             Powered by{" "}
-            <span className="react-icon">
+            <motion.span
+              animate={{ rotate: 360 }}
+              transition={{
+                duration: 2,
+                repeat: Infinity,
+                repeatType: "reverse",
+              }}
+              className="react-icon"
+            >
               <SiReact />
-            </span>{" "}
+            </motion.span>{" "}
             React.Js
           </p>
         </div>
