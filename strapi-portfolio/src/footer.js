@@ -6,7 +6,7 @@ let Footer = ()=>{
   const { inViewRef, animation } = useInViewAnimate({ animate: "visible" });
   const variants = {
     hidden: {
-      x: -50,
+      x: 50,
       opacity: 0,
     },
     visible: {

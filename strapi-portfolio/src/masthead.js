@@ -11,7 +11,7 @@ let MastHead = ()=>{
 //for fade in typing effect using the ityped npm package
 const textRef = useRef();
 useEffect(()=>{
-init(textRef.current,{ showCursor: false, backDelay:2000, backSpeed:80, strings:["Front-End Web Developer", "Web Designer", "Blogger", "Content Creator"]})
+init(textRef.current,{ showCursor: false, backDelay:2000, backSpeed:80, strings:["React Developer", "Web Designer", "JavaScript Lover", "Content Creator"]})
     console.log(textRef)
 }, [])
 
@@ -41,7 +41,7 @@ const textAnimation ={
         opacity: 0
     }, 
     show:{
-        opacity:1, transition: {default:{duration:4}, delay:4, type:"spring", stifness:1}
+        opacity:1, transition: {default:{duration:4}, delay:3, type:"spring", stifness:1}
     }
 }
 
@@ -118,7 +118,7 @@ const textBubble={
             variants={textAnimation}
             initial="hidden"
             animate="show"
-            className="main-detail"
+            className="text-label"
           >
             {" "}
             Made with{" "}

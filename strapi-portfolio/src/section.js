@@ -20,11 +20,11 @@ let Section = ()=>{
 
  //animation pattern
  const variants = {
-   hidden: {x:-50,
+   hidden: {y:-50,
      opacity: 0,
    },
    visible: {
-     x:0,
+     y:0,
      opacity: 1,
      transition: {
        duration: 7, type:"spring"

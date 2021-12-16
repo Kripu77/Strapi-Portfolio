@@ -7,11 +7,11 @@ let Contact = ()=>{
   const { inViewRef, animation } = useInViewAnimate({ animate: "visible" });
   const variants = {
     hidden: {
-      x: -50,
+      y: -50,
       opacity: 0,
     },
     visible: {
-      x: 0,
+      y: 0,
       opacity: 1,
       transition: {
         duration: 7,

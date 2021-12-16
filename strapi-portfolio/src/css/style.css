@@ -37,6 +37,15 @@ color: red;
 
 }
 
+.text-label{
+margin-top: 3rem;
+font-family: 'Birthstone',
+cursive;
+font-family: 'Dancing Script',
+cursive;
+font-size: 2rem;
+}
+
 /* react icon */
 
 .react-icon{
