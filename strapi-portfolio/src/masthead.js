@@ -2,6 +2,7 @@ import React, {useEffect, useRef} from "react";
 import plane from "./images/plane.gif"
 import { init } from 'ityped';
 import {motion} from "framer-motion";
+import Img from "react-optimized-image";
 import { useInViewAnimate } from "framer-motion-hooks";
 import Heart from "./Heart";
 
@@ -69,6 +70,7 @@ const textAnimation ={
             animate="show"
             className="masthead-avatar mb-5 bg-primary"
             src={plane}
+          
             alt="..."
           />
           <motion.img
@@ -79,6 +81,7 @@ const textAnimation ={
             src={
               "https://avatars.githubusercontent.com/u/84505567?s…00&u=56a554a8c69b4d34dce81b9170f89d44ac881906&v=4"
             }
+            
             alt="..."
             style={{ height: "300px", width: "300px", borderRadius: "100%" }}
           />
@@ -122,9 +125,7 @@ const textAnimation ={
             className="text-label"
           >
             {" "}
-            Made with{" "}
-           <Heart/> {" "}
-            by Kripu Khadka{" "}
+            Made with <Heart /> by Kripu Khadka{" "}
           </motion.p>
         </div>
       </motion.header>

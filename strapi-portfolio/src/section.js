@@ -1,4 +1,5 @@
 import React from "react";
+
 import safe from "./images/safe.png"
 import cake from "./images/cake.png"
 import circus from "./images/circus.png"
@@ -7,6 +8,7 @@ import submarine from "./images/submarine.png"
 import safetwo from "./images/safetwo.PNG";
 import {motion} from "framer-motion";
 import { useInViewAnimate } from "framer-motion-hooks";
+
 let Section = ()=>{
 
 //intersection observer hoook
