@@ -5,7 +5,7 @@ import { useInViewAnimate } from "framer-motion-hooks";
 
 let About = ({
   About = "About Me",
-  Description = " I am a data analyst A self taught techie who’s eager to learn and stay updated with the latest tech stacks and the dev ecosystem. I have the knowledge of HTML5, CSS3 Pre-processor(SASS), JavaScript(ES5/ES6+), React.js, Next.js, Strapi.js, Puppeteer.js, Framer Motion, Node.js, PHP, MySQL, Google FireBase, Firestore, Microsoft Office Products, Oracle HUB. Tools: NPM, GIT/GITHUB, JIRA, nextAuth, FirebaseAuth, auth0.",
+  Description = " I am currently serving Hungry Jacks as a Master Data Analyst.  I love catching up with all the new patterns coming out in        everchanging tech related feild. Reading documentation, tech    influencing and implementing tiny building blocks together to proudce a functional outcome is my main motivation. "
 }) => {
   //framer component animation
   const { inViewRef, animation } = useInViewAnimate({ animate: "visible" });
@@ -55,7 +55,12 @@ let About = ({
           </div>
           <div className="lead col-lg-6 me-auto">
             <p className="leader">
-              I am currently serving Hungry Jacks as a Master Data Analyst. I love catching up with all the new patterns coming out in everchanging tech related feild. Reading documentation, tech influencing and implementing tiny building blocks together to proudce a functional outcome is my main motivation. 
+             Despite being a Data
+              Analyst by profession, I have a equal amount of hunger to keep
+              myself in shape with the latest tech stacks and the fundamentals
+              of Web Automation. My favorite technologies right now are:
+              Tailwind CSS, React.js, Node.js, Framer Motion, Next.js, Strapi.js
+              and Puppeteer.js.
             </p>
           </div>
         </div>
