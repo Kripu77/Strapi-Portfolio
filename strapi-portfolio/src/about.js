@@ -5,7 +5,7 @@ import { useInViewAnimate } from "framer-motion-hooks";
 
 let About = ({
   About = "About Me",
-  Description = "A self taught techie who’s eager to learn and stay updated with the latest tech stacks and the dev ecosystem. I have the knowledge of HTML5, CSS3 Pre-processor(SASS), JavaScript(ES5/ES6+), React.js, Next.js, Strapi.js, Puppeteer.js, Framer Motion, Node.js, PHP, MySQL, Google FireBase, Firestore. Tools: NPM, GIT/GITHUB, JIRA, nextAuth, FirebaseAuth, auth0.",
+  Description = " I am a data analyst A self taught techie who’s eager to learn and stay updated with the latest tech stacks and the dev ecosystem. I have the knowledge of HTML5, CSS3 Pre-processor(SASS), JavaScript(ES5/ES6+), React.js, Next.js, Strapi.js, Puppeteer.js, Framer Motion, Node.js, PHP, MySQL, Google FireBase, Firestore, Microsoft Office Products, Oracle HUB. Tools: NPM, GIT/GITHUB, JIRA, nextAuth, FirebaseAuth, auth0.",
 }) => {
   //framer component animation
   const { inViewRef, animation } = useInViewAnimate({ animate: "visible" });
@@ -55,11 +55,7 @@ let About = ({
           </div>
           <div className="lead col-lg-6 me-auto">
             <p className="leader">
-              I am currently employed as a Assistant Manager at Hungry Jack's
-              and working as a Developer at Code
-              Venture, Sydney, NSW on the side. The fun fact about me is I spend most of my days coding,
-              debugging, reading documentation and solving the challenges that are available on the
-              Internet.
+              I am currently serving Hungry Jacks as a Master Data Analyst. I love catching up with all the new patterns coming out in everchanging tech related feild. Reading documentation, tech influencing and implementing tiny building blocks together to proudce a functional outcome is my main motivation. 
             </p>
           </div>
         </div>
