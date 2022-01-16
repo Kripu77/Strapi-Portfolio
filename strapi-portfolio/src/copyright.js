@@ -38,7 +38,7 @@ const variants = {
             className="container"
             style={{ fontSize: "2rem" }}
           >
-            <small>Copyright &copy; Kripu Khadka 2021</small>
+            <small>Copyright &copy; Kripu Khadka 2022</small>
           </div>
 
           <p className="main-detail">

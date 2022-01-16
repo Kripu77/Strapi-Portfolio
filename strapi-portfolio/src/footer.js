@@ -32,7 +32,7 @@ let Footer = ()=>{
             <div className="col-lg-4 mb-5 mb-lg-0">
               <h4 className="text-uppercase mb-4">Address </h4>
 
-              <p className="lead mb-0">14 Curzon st, Ryde, NSW, 2112.</p>
+              <p className="lead mb-0"> Ryde, New South Wales, 2112.</p>
             </div>
             {/* <!-- Footer Social Icons--> */}
             <div className="col-lg-4 mb-5 mb-lg-0">
@@ -66,8 +66,7 @@ let Footer = ()=>{
             <div className="col-lg-4">
               <h4 className="text-uppercase mb-4">Thank you</h4>
               <p className="lead mb-0">
-                Thank you for visting my site, Please check out my GitHub
-                profile & Let's get connected on linkedIn.
+                Thank you for visting my site, Please help me build a bigger network by connecting with me on linkedIn.
                 <br />
               </p>
             </div>
