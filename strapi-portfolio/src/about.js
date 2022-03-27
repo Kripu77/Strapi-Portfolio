@@ -58,9 +58,9 @@ let About = ({
              Despite being a Data
               Analyst by profession, I have a equal amount of hunger to keep
               myself in shape with the latest tech stacks and the fundamentals
-              of Web Automation. My favorite technologies right now are:
-              Tailwind CSS, React.js, Node.js, Framer Motion, Next.js, Strapi.js
-              and Puppeteer.js.
+              of Automation along with the vast Dev Stacks. My favorite technologies right now are:
+              Microsoft Excel, Docker, Tailwind CSS, React.js, Node.js, Framer Motion, Next.js, Strapi.js, 
+  Puppeteer.js, Webpack.js, and so on.
             </p>
           </div>
         </div>

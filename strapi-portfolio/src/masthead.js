@@ -11,7 +11,7 @@ let MastHead = ()=>{
 //for fade in typing effect using the ityped npm package
 const textRef = useRef();
 useEffect(()=>{
-init(textRef.current,{ showCursor: false, backDelay:2000, backSpeed:80, strings:[ "Master Data Analyst", "React Dev",  "JavaScript Enthusiast", "JavaScript Dev"]})
+init(textRef.current,{ showCursor: false, backDelay:2000, backSpeed:80, strings:[ "Data Analyst", "React Dev",  "JavaScript Enthusiast", "JavaScript Dev"]})
    
 }, [])
 
@@ -70,7 +70,6 @@ const textAnimation ={
             animate="show"
             className="masthead-avatar mb-5 bg-primary"
             src={plane}
-          
             alt="..."
           />
           <motion.img
@@ -79,9 +78,8 @@ const textAnimation ={
             animate="show"
             className="masthead-avatar mb-5"
             src={
-              "https://avatars.githubusercontent.com/u/84505567?s…00&u=56a554a8c69b4d34dce81b9170f89d44ac881906&v=4"
+              "https://scontent-syd2-1.xx.fbcdn.net/v/t31.18172-8/18836956_1115462698597355_7995818228830682397_o.jpg?_nc_cat=103&ccb=1-5&_nc_sid=174925&_nc_ohc=PZA7vbH__aYAX-1skFu&_nc_ht=scontent-syd2-1.xx&oh=00_AT93JxaMMSlxT_92pznv1wo3Ad6Ykd5uoT8EDOO-C0PHEQ&oe=62651213"
             }
-            
             alt="..."
             style={{ height: "300px", width: "300px", borderRadius: "100%" }}
           />
