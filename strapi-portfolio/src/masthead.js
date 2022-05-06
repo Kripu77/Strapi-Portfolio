@@ -78,10 +78,10 @@ const textAnimation ={
             animate="show"
             className="masthead-avatar mb-5"
             src={
-              "https://scontent-syd2-1.xx.fbcdn.net/v/t31.18172-8/18836956_1115462698597355_7995818228830682397_o.jpg?_nc_cat=103&ccb=1-5&_nc_sid=174925&_nc_ohc=PZA7vbH__aYAX-1skFu&_nc_ht=scontent-syd2-1.xx&oh=00_AT93JxaMMSlxT_92pznv1wo3Ad6Ykd5uoT8EDOO-C0PHEQ&oe=62651213"
+              "https://res.cloudinary.com/kripukhadka-com/image/upload/v1651489023/imageC_cpuqkl.jpg"
             }
             alt="..."
-            style={{ height: "300px", width: "300px", borderRadius: "100%" }}
+            style={{ height: "280px", width: "300px", borderRadius: "100%" }}
           />
           {/* <!-- Masthead Heading--> */}
           <motion.img
